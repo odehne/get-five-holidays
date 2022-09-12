@@ -7,16 +7,18 @@ To limit the amount of requests sent to the API endpoint, the CLI maintains a fi
 
 ## Getting started
 
+```sh
 git clone https://github.com/odehne/get-five-holidays.git
 cd get-five-holidays
 python get-five-holidays.py it
-
+```
 ## Usage example
 
 The CLI expects the <countryCode> as an argument. The country code is a two letter acronym that represents countries, like: de, gb, us, it ...
 
+```sh
 python get-five-holidays.py <countryCode>
-
+```
 <!-- _For more examples and usage, please refer to the [Wiki][wiki]._ -->
 
 ## Development setup
