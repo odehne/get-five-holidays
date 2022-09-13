@@ -1,7 +1,7 @@
 # Get (next) Five Holidays
 > CLI that returns the next five holidays for a given country code.
 
-get-five-holidays is a simple CLI that returns the five upcoming holidays for a country. The CLI utilizes the https://github.com/nager/Nager.Date REST API (https://github.com/nager/Nager.Date) to retrieve the next five holidays. 
+get-five-holidays is a simple CLI that returns the five upcoming holidays for a country. The CLI utilizes the Nager.Date REST API (https://github.com/nager/Nager.Date) to retrieve the next five holidays. 
 
 To limit the amount of requests sent to the API endpoint, the CLI maintains a file based cache and keeps query results for a day per country. Queries to countries not found in cache will be routed to the API.
 
@@ -14,7 +14,7 @@ python get-five-holidays.py it
 ```
 ## Usage example
 
-The CLI expects the <countryCode> as an argument. The country code is a two letter acronym that represents countries, like: de, gb, us, it ...
+The CLI expects the countryCode as an argument. The country code is a two letter acronym that represents countries, like: de, gb, us, it ...
 
 ```sh
 python get-five-holidays.py <countryCode>
